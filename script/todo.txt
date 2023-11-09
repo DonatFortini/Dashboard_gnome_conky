@@ -1,1 +1,4 @@
-
+- 00/00 ->santuci, bisgam
+- 15/11 ->poggi ppxt
+- 11/12 -> vittori chatgpt
+- 18/12 -> vittori tp flyweight
