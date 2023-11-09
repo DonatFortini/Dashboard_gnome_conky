@@ -1,4 +1,4 @@
-### README
+### Conky Dashboard
 
 Ce README décrit les étapes pour configurer Conky sur GNOME. Suivez ces instructions pour obtenir un affichage Conky personnalisé.
 
@@ -11,7 +11,7 @@ Ce README décrit les étapes pour configurer Conky sur GNOME. Suivez ces instru
 Clonez le référentiel dans le répertoire `/etc/` en utilisant la commande suivante :
 
 ```bash
-git clone <lien_du_repo> /etc/conky
+git clone https://github.com/DonatFortini/Dashboard_gnome_conky /etc/
 ```
 
 #### Étape 2 : Exécuter le script d'installation des dépendances
