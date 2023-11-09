@@ -1,2 +1,3 @@
 config Conky pour gnome 
-run le script d'install pour toutes les dépendance puis demarrer conky manager pour set droite et gauche au démarage
+clone le repo dans /etc/
+run le script d'install pour toutes les dépendances puis demarrer conky manager pour set droite et gauche au démarage
