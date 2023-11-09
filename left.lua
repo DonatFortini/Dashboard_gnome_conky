@@ -106,14 +106,14 @@ ${color3}${alignr}${downspeedgraph wlp0s20f3 8,60}
 ${color2}B A T T E R Y ${hr 2}
 ${color1}${offset 20}${battery BAT1}${color2}
 ${offset 20}${battery_bar 30,280 BAT1}
-${font DS\-Digital:size=70}${offset 20}${color1}${execi 10 /etc/conky/bat.sh}${font}
+${font DS\-Digital:size=70}${offset 20}${color1}${execi 10 /etc/conky/script/bat.sh}${font}
 #
 #
 #
 ${color2}TO-DOS ${hr 2}
 ${voffset 5}
-${color7}${execi 10 /etc/conky/todo.sh}
-${execi 1 echo <span onClick='exec:/etc/conky/test.sh'>Click me</span>}
+${color7}${execi 10 /etc/conky/script/todo.sh}
+
 ]];
 
 

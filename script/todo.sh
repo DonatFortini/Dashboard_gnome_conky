@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-file_path="/etc/conky/todo.txt"  
+file_path="/etc/conky/script/todo.txt"  
 
 
 if [ -f "$file_path" ] && [ -r "$file_path" ]; then
