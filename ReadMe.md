@@ -28,7 +28,7 @@ Lancez Conky Manager pour gérer les configurations de Conky.
 
 #### Étape 4 : Ajouter `/etc/conky/` aux dossiers de configuration
 
-Dans Conky Manager, ajoutez le répertoire `/etc/conky/` comme source de configurations pour Conky.
+Dans Conky Manager, ajoutez le répertoire `/etc/conky/` comme source de configurations pour Conky en cliquant sur le bouton parametre.
 
 #### Étape 5 : Ajouter `left.lua` et `right.lua` au démarrage
 
