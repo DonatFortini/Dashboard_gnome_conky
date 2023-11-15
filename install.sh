@@ -4,7 +4,7 @@ sudo mv /etc/Dashboard_gnome_conky/ /etc/conky/
 sudo chmod 777 -R /etc/conky/
 echo "Télechargement des dépandances"
 sudo add-apt-repository "deb http://ppa.launchpad.net/ubuntuhandbook1/conkymanager2/ubuntu focal main"
-sudo apt install conky -y && sudo apt install conky-manager2 -y
+sudo apt install conky -y && sudo apt install conky-manager2 && sudo apt install acpi -y
 sudo apt update
 sudo rm conky.conf
 sudo rm conky_no_x11.conf
@@ -15,9 +15,9 @@ unzip Fira_Code.zip -d Fira_Code
 sudo rm -R Fira_Code.zip
 sudo mv Fira_Code /usr/share/fonts/truetype/
 echo "Télechargement DS-Digital"
-wget  https://dl.dafont.com/dl/?f=ds_digital
-sudo mv index.html?f=ds_digital ds_digital
-sudo mv ds_digital /usr/share/fonts/truetype/ 
+unzip ds_digital.zip -d ds_digital
+sudo rm -R ds_digital.zip
+sudo mv ds_digital /usr/share/fonts/truetype/
 echo "Télechargement des polices terminé"
 echo "Installation terminé"
 echo "Lancement de conky-manager2"
