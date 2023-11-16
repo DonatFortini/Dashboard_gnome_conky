@@ -43,6 +43,9 @@ Assurez-vous d'ajouter les fichiers de configuration `left.lua` et `right.lua` a
 
 - Assurez-vous que Conky Manager est configuré pour charger les configurations au démarrage de GNOME pour une expérience sans souci. 
 - Personnalisez les fichiers `left.lua` et `right.lua` pour afficher les informations que vous souhaitez sur votre bureau.
+- Évidemment, si vous êtes sur un desktop, désactivé le widget batterie.
+- Si le widget wifi ne fonctionne pas,changer la valeur de `wlp0s20f3` par le nom de votre carte wifi : 
+  <p align="center"><img src="./assets/wifi.png" width="500"></p>
 - L'application Gnome-tweaks est fortement recommandé --> 
 
 ```bash
